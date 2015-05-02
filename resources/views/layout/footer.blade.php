@@ -1,0 +1,1 @@
+<footer>TradeHub by <a href="http://maximeleboeuf.com">Maxime Leboeuf</a></footer>
