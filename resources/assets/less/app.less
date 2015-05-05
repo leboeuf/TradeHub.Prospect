@@ -1,10 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,200italic,400italic,700italic);
-@import "reset";
+@import "font-sourcesanspro";
+@import "purecss";
 
 .left { text-align: left; }
 .center { text-align: center; }
+.hidden { display: none; }
 
 .ajax { padding: 1em; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
 
 body {
 	color: #525252;
@@ -45,5 +48,10 @@ footer {
 	}
 }
 
+.green { color: #a1bd8c; }
+.yellow { color: #ddba4c; }
+.red { color: #c67276; }
+
 @import "searchbar";
+@import "components";
 @import "responsive";
