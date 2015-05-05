@@ -1,3 +1,20 @@
+@outline-gray: #f4f7f9;
+@subtitle-gray: #bdc2ca;
+@text-gray: #525252;
+
+hr {
+	border: 0;
+	border-bottom: 1px solid @subtitle-gray;
+	margin-bottom: 1.4em;
+}
+
+.company-title {
+	h2 {
+		color: @subtitle-gray;
+		font-size: 12px;
+	}
+}
+
 .datasquare-small {
 	padding: 2em;
 
@@ -7,7 +24,7 @@
 	}
 
 	h5 {
-		color: #bdc2ca;
+		color: @subtitle-gray;
 		font-size: 12px;
 		margin-top: -6px;
 	}
@@ -15,4 +32,27 @@
 	.datasquare-small-data {
 		font-size: 24px;
 	}	
+}
+
+.menu 
+{
+	ul {
+		list-style-type: none;
+		padding: 0 0 0 1em;
+		margin: 0px;
+		font-weight: bold;
+
+		li {
+			background-image: url(/images/box-unchecked.png);
+			background-repeat: no-repeat;
+			background-position: 0px center;
+			padding-left: 20px;
+			color: @subtitle-gray;
+		}
+
+		li.ready {
+			background-image: url(/images/box-checked.png);
+			color: @text-gray;
+		}
+	}
 }

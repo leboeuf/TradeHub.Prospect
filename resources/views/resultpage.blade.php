@@ -1,12 +1,17 @@
-<div class="content-inner">
-	<div class="pure-g left">
-		<div class="pure-u-1-4"><h1>AAPL</h1></div>
-		<div class="pure-u-1-4">b</div>
-		<div class="pure-u-1-4">c</div>
-		<div class="pure-u-1-4">d</div>
+<div class="content-inner left">
+	<div class="pure-g">
+		<div class="pure-u-1-2">
+			<div class="company-title">
+				<h1>Apple Inc</h1>
+				<h2>AAPL.O</h2>
+			</div>
+		</div>
+		<div class="pure-u-1-2 right">
+			@include('components.morningstar-rating', ['rating' => 4])
+		</div>
 	</div>
 
-	<div class="pure-g left">
+	<div class="pure-g">
 		<div class="pure-u-1-5">
 			@include('components.datasquare-small', ['title' => 'Quote', 'subtitle' => 'Last: May 6 11:42:49', 'data' => '41.64', 'class' => 'green'])
 		</div>
@@ -23,4 +28,24 @@
 			@include('components.datasquare-small', ['title' => 'Volume', 'subtitle' => 'Avg: 130 538 391', 'data' => '123 456 789', 'class' => ''])
 		</div>
 	</div>
+
+	<hr/>
+
+	<div class="pure-g">
+		<div class="pure-u-1-4">
+			@include('components.menu')
+		</div>
+		<div class="pure-u-3-4">
+			asd
+		</div>
+	</div>
+
+	{{-- <div class="pure-g">
+		<div class="pure-u-2-3">
+			<img src="http://finviz.com/chart.ashx?t=AAPL&ty=c&ta=1&p=d&s=l">
+		</div>
+		<div class="pure-u-1-3">
+			asd
+		</div>
+	</div> --}}
 </div>

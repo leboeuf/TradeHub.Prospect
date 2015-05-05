@@ -562,6 +562,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .left {
   text-align: left;
 }
+.right {
+  text-align: right;
+}
 .center {
   text-align: center;
 }
@@ -678,6 +681,15 @@ form {
   z-index: 100;
   position: relative;
 }
+hr {
+  border: 0;
+  border-bottom: 1px solid #bdc2ca;
+  margin-bottom: 1.4em;
+}
+.company-title h2 {
+  color: #bdc2ca;
+  font-size: 12px;
+}
 .datasquare-small {
   padding: 2em;
 }
@@ -692,6 +704,23 @@ form {
 }
 .datasquare-small .datasquare-small-data {
   font-size: 24px;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0 0 0 1em;
+  margin: 0px;
+  font-weight: bold;
+}
+.menu ul li {
+  background-image: url(/images/box-unchecked.png);
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  padding-left: 20px;
+  color: #bdc2ca;
+}
+.menu ul li.ready {
+  background-image: url(/images/box-checked.png);
+  color: #525252;
 }
 .container {
   margin-left: auto;
