@@ -764,6 +764,7 @@ hr {
 }
 .news ul.daylist {
   margin-left: 74px;
+  margin-bottom: 1em;
 }
 .news ul.daylist li {
   overflow: auto;
@@ -777,6 +778,7 @@ hr {
 }
 .news .calendar {
   float: left;
+  overflow: auto;
 }
 .container {
   margin-left: auto;

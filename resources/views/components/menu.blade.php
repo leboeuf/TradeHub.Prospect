@@ -1,9 +1,11 @@
 <div class="menu">
 	<ul>
-		<li>Lorem</li>
+		<li>Overview</li>
+		<li>Technicals</li>
+		<li>Fundamentals</li>
+		<li>Analysts</li>
+		<li>Insiders</li>
 		<li class="ready">News</li>
-		<li>Dolor sit</li>
-		<li>Amet</li>
-		<li>Asd qwe ver</li>
+		<li class="blue">Social</li>
 	</ul>
 </div>
