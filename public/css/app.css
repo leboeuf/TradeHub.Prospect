@@ -559,6 +559,21 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .pure-u-24-24 {
   width: 100%;
 }
+.green {
+  color: #a1bd8c;
+}
+.greener {
+  color: #5bae77;
+}
+.yellow {
+  color: #ddba4c;
+}
+.red {
+  color: #c67276;
+}
+.blue {
+  color: #34cae0;
+}
 .left {
   text-align: left;
 }
@@ -616,15 +631,6 @@ footer {
   font-weight: bold;
   text-decoration: none;
 }
-.green {
-  color: #a1bd8c;
-}
-.yellow {
-  color: #ddba4c;
-}
-.red {
-  color: #c67276;
-}
 .search {
   display: inline-block;
   width: 410px;
@@ -681,6 +687,35 @@ form {
   z-index: 100;
   position: relative;
 }
+.calendar {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  position: relative;
+  background: #fff;
+}
+.calendar .header {
+  height: 16px;
+  background: #e74c3c;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  width: 100%;
+  text-align: center;
+  font-size: 8px;
+  color: #FFF;
+  line-height: 18px;
+}
+.calendar .num-day {
+  padding-top: 4px;
+  height: 28px;
+  font-size: 26px;
+  color: #333;
+  text-align: center;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: 1px solid #bdc2ca;
+  border-top: 0;
+}
 hr {
   border: 0;
   border-bottom: 1px solid #bdc2ca;
@@ -708,7 +743,7 @@ hr {
 .menu ul {
   list-style-type: none;
   padding: 0 0 0 1em;
-  margin: 0px;
+  margin: 0;
   font-weight: bold;
 }
 .menu ul li {
@@ -721,6 +756,27 @@ hr {
 .menu ul li.ready {
   background-image: url(/images/box-checked.png);
   color: #525252;
+}
+.news ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.news ul.daylist {
+  margin-left: 74px;
+}
+.news ul.daylist li {
+  overflow: auto;
+}
+.news ul.daylist .time {
+  float: left;
+}
+.news ul.daylist .title {
+  margin-left: 12px;
+  float: left;
+}
+.news .calendar {
+  float: left;
 }
 .container {
   margin-left: auto;

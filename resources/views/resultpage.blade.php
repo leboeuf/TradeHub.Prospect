@@ -36,7 +36,7 @@
 			@include('components.menu')
 		</div>
 		<div class="pure-u-3-4">
-			asd
+			@include('components.news')
 		</div>
 	</div>
 
