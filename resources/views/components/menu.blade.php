@@ -1,7 +1,7 @@
 <div class="menu">
 	<ul>
 		<li>Overview</li>
-		<li>Technicals</li>
+		<li class="ready">Technicals</li>
 		<li>Fundamentals</li>
 		<li>Analysts</li>
 		<li>Insiders</li>
